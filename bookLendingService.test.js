@@ -30,6 +30,6 @@ test('Has Equal price', () => {
   expect(totalPrice).toEqual(expectedTotalPrice);
 });
 
-test('Equal Number', () => {
-  expect(bookLendingService.totalPrice()).toEqual(46.75);
+test(' Has Equal Number', () => {
+  expect(bookLendingService.totalPrice).toEqual(46.75);
 });
