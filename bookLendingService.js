@@ -77,4 +77,4 @@ module.exports = (
   bookLendingService.bookList(),
   bookLendingService.bookCount(),
   bookLendingService.totalPrice()
-  );
+);
